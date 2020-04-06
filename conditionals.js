@@ -1,11 +1,5 @@
-const temp = -1;
+const temp = 45;
 
-if (temp < 0) {
-  console.log('Don\'t forget to pick out a scarf.');
-} else if (temp < 15) {
-  console.log('Pick out long sleeves.');
-} else {
-  console.log('Short sleeves are fine.');
+if (temp <-44 || temp > 44) {
+  console.log('It\'s not a good idea to go outside');
 }
-
-console.log('Now you\'re ready to go outside.')
